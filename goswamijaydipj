@@ -74,9 +74,9 @@
 
                     <div class="header-info-list d-none d-md-inline-block">
                         <ul class="ul-reset">
-                            <li><a href="goswamijaydipj@gmail.com">goswamijaydipj@gmail.com</a></li>
+                            <li><a href="mailto:goswamijaydipj@gmail.com">goswamijaydipj@gmail.com</a></li>
                             <label for="phone">
-                              <small>8866 2335 15</small>
+                              <small>+91 8866 2335 15</small>
                             </label>
                         </ul>
                     </div>
@@ -124,7 +124,10 @@
 
                     <div class="header-info-list d-none d-md-inline-block">
                         <ul class="ul-reset">
-                            <li><a href="goswamijaydipj@gmail.com">goswamijaydipj@gmail.com</a></li>
+                            <li><a href="mailto:goswamijaydipj@gmail.com">goswamijaydipj@gmail.com</a></li>
+                            <label for="phone">
+                              <small>+91 8866 2335 15</small>
+                            </label>
                         </ul>
                     </div>
 
