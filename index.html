@@ -997,6 +997,31 @@
     <script src="assets/js/magnific-popup.js"></script>
 
     <script src="assets/js/main.js"></script>
+<script>
+  $(document).ready(function () {
+    var $grid = $('.portfolio-box');
+
+    // Wait for all images to load before initializing Isotope
+    $grid.imagesLoaded(function () {
+      $grid.isotope({
+        itemSelector: '.portfolio-item',
+        percentPosition: true,
+        masonry: {
+          columnWidth: '.portfolio-sizer',
+          gutter: '.gutter-sizer'
+        }
+      });
+    });
+
+    // Initialize WOW.js and re-layout Isotope after each animation
+    new WOW({
+      callback: function (box) {
+        $grid.isotope('layout');
+      }
+    }).init();
+  });
+</script>
+    
 </body>
 
 </html>
